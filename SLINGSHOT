@@ -1,0 +1,16 @@
+var Engine =Matter.engine,
+World = Matter.World;
+Bodies = Matter.Bodies;
+ 
+ function Setup(){
+createCanvas(550,550);
+engine =engine.create;
+world = engine.world;
+
+var options ={
+	isStatic = true;
+}
+
+
+
+ }
